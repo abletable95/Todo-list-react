@@ -1,0 +1,30 @@
+.itemWrapper {
+    min-width: 100%;
+    height: 40px;
+    background-color: rgb(220, 252, 253);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.itemText {
+    font-family: Verdana;
+}
+
+.bucketHold {
+    box-sizing: border-box;
+    max-height: 40px;
+    max-width: 40px;
+    padding: 5px;
+}
+
+.bucketIcon {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}

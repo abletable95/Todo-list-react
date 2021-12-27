@@ -1,0 +1,15 @@
+.form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form input {
+    width: 80%;
+    margin-right: 10px;
+}
+
+.form button {
+    width: 20%;
+}
